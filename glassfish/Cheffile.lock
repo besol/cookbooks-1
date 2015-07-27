@@ -1,0 +1,16 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    authbind (0.1.10)
+    cutlery (0.2.8)
+      partial_search (>= 0.0.0)
+    glassfish (0.6.0)
+      authbind (>= 0.0.0)
+      cutlery (>= 0.0.0)
+      java (>= 0.0.0)
+    java (1.31.0)
+    partial_search (1.0.8)
+
+DEPENDENCIES
+  glassfish (>= 0)
+

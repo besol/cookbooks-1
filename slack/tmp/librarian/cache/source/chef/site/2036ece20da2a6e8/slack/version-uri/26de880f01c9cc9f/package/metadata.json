@@ -1,0 +1,66 @@
+{
+  "name": "slack",
+  "description": "slack LWRP for notifying slack.com channels",
+  "long_description": "slack Cookbook\n==============\n\nThis cookbook sends messages to a [Slack](http://www.slack.com) chatroom using the Incoming\nWebhook Integration\n\nRequirements\n------------\n\n#### packages\n- `slackr` - Uses the [slackr](https://github.com/risk-io/slackr)\n  rubygem to talk to Slack\n\nAttributes\n----------\n\n#### slack::default\n<table>\n  <tr>\n    <th>Key</th>\n    <th>Type</th>\n    <th>Description</th>\n    <th>Default</th>\n  </tr>\n  <tr>\n    <td><tt>['slack']['team']</tt></td>\n    <td>String</td>\n    <td>Your Slack team-name</td>\n    <td><tt>nil</tt></td>\n  </tr>\n  <tr>\n    <td><tt>['slack']['api_key']</tt></td>\n    <td>String</td>\n    <td>The Incoming Webhook API key</td>\n    <td><tt>nil</tt></td>\n  </tr>\n</table>\n\nLWRP Usage\n-----\n\n```ruby\nslack \"Say something clever\"\n```\n\n```ruby\nslack \"say_something_clever\" do\n  message \"Look I'm a Ghost! Boo!\"\n  icon_emoji \":ghost:\"\n  not_if { node['im_boring'] }\nend\n```\n\n```ruby\nslack \"lazy_ghost\" do\n  message \"Boo! I'm still a ghost\"\n  icon_emoji \":ghost:\"\n  action :nothing\nend\n\nsomething \"talk_as_ghost\" do\n  notifies :say, \"slack[lazy_ghost]\", :immediately\nend\n```\n\nContributing\n------------\n1. Fork the repository on Github\n2. Create a named feature branch (like `add_component_x`)\n3. Write your change\n4. Write tests for your change (if applicable)\n5. Run the tests, ensuring they all pass\n6. Submit a Pull Request using Github\n\nLicense and Authors\n-------------------\nAuthors: Jason Rohwedder <jro@risk.io>\n",
+  "maintainer": "Risk I/O",
+  "maintainer_email": "jro@risk.io",
+  "license": "Apache 2.0",
+  "platforms": {
+    "redhat": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "scientific": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "arch": ">= 0.0.0",
+    "freebsd": ">= 0.0.0",
+    "amazon": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+    "team": {
+      "display_name": "Slack Team Name",
+      "description": "Your Slack Team Name",
+      "default": null,
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "required": "optional",
+      "recipes": [
+
+      ]
+    },
+    "api_key": {
+      "display_name": "Slack API Key",
+      "description": "Your Slack Incoming Webhook API key",
+      "default": null,
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "required": "optional",
+      "recipes": [
+
+      ]
+    }
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}

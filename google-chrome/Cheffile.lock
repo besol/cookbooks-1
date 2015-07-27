@@ -1,0 +1,10 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (2.7.0)
+    google-chrome (0.0.1)
+      apt (>= 0.0.0)
+
+DEPENDENCIES
+  google-chrome (>= 0)
+

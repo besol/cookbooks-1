@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":21011,"version":"0.2.1","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/pnp4nagios","file":"https://supermarket.getchef.com/api/v1/cookbooks/pnp4nagios/versions/0.2.1/download","dependencies":{"apache2":">= 0.0.0","rrdtool":">= 0.0.0"}}

@@ -1,0 +1,1 @@
+{"license":"Apache V2","tarball_file_size":3955,"version":"0.0.1","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/cloudformation","file":"https://supermarket.getchef.com/api/v1/cookbooks/cloudformation/versions/0.0.1/download","dependencies":{"xml":"~> 1.1.0","ohai":">= 0.0.0","chef_handler":">= 0.0.0"}}

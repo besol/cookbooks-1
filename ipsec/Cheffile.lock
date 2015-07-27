@@ -1,0 +1,8 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    ipsec (0.1.0)
+
+DEPENDENCIES
+  ipsec (>= 0)
+

@@ -1,0 +1,8 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    loggly (0.1.1)
+
+DEPENDENCIES
+  loggly (>= 0)
+

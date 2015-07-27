@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":12830,"version":"1.0.6","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/hubot","file":"https://supermarket.getchef.com/api/v1/cookbooks/hubot/versions/1.0.6/download","dependencies":{"supervisor":">= 0.0.0","runit":">= 0.0.0","nodejs":">= 0.0.0","git":">= 0.0.0"}}

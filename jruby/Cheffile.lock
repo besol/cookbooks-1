@@ -1,0 +1,12 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    install_from (3.0.4)
+    java (1.31.0)
+    jruby (0.2.5)
+      install_from (>= 0.0.0)
+      java (>= 0.0.0)
+
+DEPENDENCIES
+  jruby (>= 0)
+

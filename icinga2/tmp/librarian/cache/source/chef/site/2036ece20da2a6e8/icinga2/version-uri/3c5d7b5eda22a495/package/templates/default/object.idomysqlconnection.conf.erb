@@ -1,0 +1,55 @@
+/**
+ * This file is managed by Chef.
+ * Do NOT modify this file directly.
+*/
+
+/**
+ * IdoMysqlConnection Object.
+*/
+
+library <%= @library.inspect %>
+
+object IdoMysqlConnection <%= @object.inspect -%> {
+  <% if @host -%>
+  host = <%= @host.inspect %>
+  <% end -%>
+  <% if @port -%>
+  port = <%= @port.inspect %>
+  <% end -%>
+  <% if @user -%>
+  user = <%= @user.inspect %>
+  <% end -%>
+  <% if @password -%>
+  password = <%= @password.inspect %>
+  <% end -%>
+  <% if @database -%>
+  database = <%= @database.inspect %>
+  <% end -%>
+  <% if @table_prefix -%>
+  table_prefix = <%= @table_prefix.inspect %>
+  <% end -%>
+  <% if @instance_name -%>
+  instance_name = <%= @instance_name.inspect %>
+  <% end -%>
+  <% if @instance_description -%>
+  instance_description = <%= @instance_description.inspect %>
+  <% end -%>
+  <% unless @enable_ha.nil? -%>
+  enable_ha = <%= @enable_ha.inspect %>
+  <% end -%>
+  <% if @failover_timeout -%>
+  failover_timeout = <%= @failover_timeout %>
+  <% end -%>
+  <% if @cleanup -%>
+  cleanup = {
+  <% @cleanup.each do |var, value| -%>
+  <% if var && value -%>
+    <%= var -%> = <%= value %>
+  <% end -%>
+  <% end -%>
+  }
+  <% end -%>
+  <% if @categories && !@categories.empty?-%>
+  categories = [<%= @categories.join(' | ') %>]
+  <% end -%>
+}

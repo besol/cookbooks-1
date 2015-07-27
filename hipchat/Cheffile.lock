@@ -1,0 +1,10 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    chef_handler (1.2.0)
+    hipchat (0.4.0)
+      chef_handler (>= 0.0.0)
+
+DEPENDENCIES
+  hipchat (>= 0)
+

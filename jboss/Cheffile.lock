@@ -1,0 +1,10 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    java (1.31.0)
+    jboss (0.0.3)
+      java (>= 0.0.0)
+
+DEPENDENCIES
+  jboss (>= 0)
+

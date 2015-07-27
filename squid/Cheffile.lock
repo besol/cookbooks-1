@@ -1,0 +1,8 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    squid (0.5.4)
+
+DEPENDENCIES
+  squid (>= 0)
+

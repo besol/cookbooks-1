@@ -1,0 +1,17 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    memcached (1.7.2)
+      runit (~> 1.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    packagecloud (0.0.19)
+    runit (1.7.2)
+      packagecloud (>= 0.0.0)
+    yum (3.6.3)
+    yum-epel (0.6.2)
+      yum (~> 3.2)
+
+DEPENDENCIES
+  memcached (>= 0)
+

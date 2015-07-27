@@ -1,0 +1,16 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    build-essential (2.2.3)
+    chef_handler (1.2.0)
+    cloudformation (0.0.1)
+      chef_handler (>= 0.0.0)
+      ohai (>= 0.0.0)
+      xml (~> 1.1.0)
+    ohai (2.0.1)
+    xml (1.1.2)
+      build-essential (>= 0.0.0)
+
+DEPENDENCIES
+  cloudformation (>= 0)
+

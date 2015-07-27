@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":28559,"version":"3.4.16","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/postgresql","file":"https://supermarket.getchef.com/api/v1/cookbooks/postgresql/versions/3.4.16/download","dependencies":{"openssl":">= 0.0.0","build-essential":">= 0.0.0","apt":">= 1.9.0"}}

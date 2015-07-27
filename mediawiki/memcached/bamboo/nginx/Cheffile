@@ -1,0 +1,6 @@
+site "https://supermarket.getchef.com/api/v1"
+
+cookbook "mediawiki"
+cookbook "memcached"
+cookbook "bamboo"
+cookbook "nginx"

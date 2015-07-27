@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":14879,"version":"1.7.1","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/rbenv","file":"https://supermarket.getchef.com/api/v1/cookbooks/rbenv/versions/1.7.1/download","dependencies":{"ohai":">= 1.1","apt":">= 0.0.0","build-essential":">= 0.0.0","git":">= 0.0.0"}}

@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":9851,"version":"1.3.4","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/cloudfoundry","file":"https://supermarket.getchef.com/api/v1/cookbooks/cloudfoundry/versions/1.3.4/download","dependencies":{"rbenv":">= 0.0.0","logrotate":">= 0.0.0","git":">= 0.0.0","apt":">= 0.0.0"}}

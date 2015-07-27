@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":5914,"version":"2.8.1","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/git","file":"https://supermarket.getchef.com/api/v1/cookbooks/git/versions/2.8.1/download","dependencies":{"runit":">= 1.0.0","yum":"< 3.0.0","windows":">= 0.0.0","build-essential":">= 0.0.0","dmg":">= 0.0.0"}}

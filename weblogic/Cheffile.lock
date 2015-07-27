@@ -1,0 +1,16 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    chef-sugar (3.1.1)
+    java (1.31.0)
+    oracle-inventory (0.1.0)
+    resource (0.2.2)
+    weblogic (2.0.1)
+      chef-sugar (>= 0.0.0)
+      java (>= 0.0.0)
+      oracle-inventory (>= 0.0.0)
+      resource (>= 0.0.0)
+
+DEPENDENCIES
+  weblogic (>= 0)
+

@@ -1,0 +1,17 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    chef-sugar (3.1.1)
+    java (1.31.0)
+    jetty (0.1.5)
+      java (>= 0.0.0)
+      jpackage (>= 0.0.0)
+      openssl (>= 0.0.0)
+    jpackage (1.0.2)
+      java (>= 0.0.0)
+    openssl (4.2.0)
+      chef-sugar (>= 0.0.0)
+
+DEPENDENCIES
+  jetty (>= 0)
+

@@ -1,0 +1,17 @@
+# Dropped off once by Chef for
+# Local modifications WILL BE overwritten.
+
+<VirtualHost *:80>
+  ServerName <%= @params[:server_name] %>
+  ServerAlias <% @params[:server_aliases].each do |a| %><%= "#{a}" %> <% end %>
+  DocumentRoot <%= @params[:docroot] %>
+
+#  Redirect permanent / https://<%= @params[:server_name] %>/
+  <Directory <%= @params[:docroot] %>>
+    DirectoryIndex index.php
+    Options FollowSymLinks Indexes
+    AllowOverride None
+    Order allow,deny
+    Allow from all
+  </Directory>
+</VirtualHost>

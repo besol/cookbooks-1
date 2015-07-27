@@ -1,0 +1,20 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (2.7.0)
+    java (1.31.0)
+    minecraft (0.5.2)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      ohai (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    ohai (2.0.1)
+    packagecloud (0.0.19)
+    runit (1.7.2)
+      packagecloud (>= 0.0.0)
+    yum (3.6.3)
+
+DEPENDENCIES
+  minecraft (>= 0)
+

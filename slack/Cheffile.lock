@@ -1,0 +1,8 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    slack (0.1.0)
+
+DEPENDENCIES
+  slack (>= 0)
+

@@ -1,0 +1,1 @@
+{"license":"Apache 2","tarball_file_size":9647,"version":"0.5.2","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/minecraft","file":"https://supermarket.getchef.com/api/v1/cookbooks/minecraft/versions/0.5.2/download","dependencies":{"yum":">= 0.0.0","apt":">= 0.0.0","ohai":">= 0.0.0","runit":">= 0.0.0","java":">= 0.0.0"}}

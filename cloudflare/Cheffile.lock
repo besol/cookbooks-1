@@ -1,0 +1,8 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    cloudflare (0.1.8)
+
+DEPENDENCIES
+  cloudflare (>= 0)
+

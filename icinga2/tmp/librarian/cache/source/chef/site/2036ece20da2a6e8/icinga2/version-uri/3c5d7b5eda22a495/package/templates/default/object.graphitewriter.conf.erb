@@ -1,0 +1,25 @@
+/**
+ * This file is managed by Chef.
+ * Do NOT modify this file directly.
+*/
+
+/**
+ * GraphiteWriter Object.
+*/
+
+library <%= @library.inspect %>
+
+object GraphiteWriter <%= @object.inspect -%> {
+  <% if @host -%>
+  host = <%= @host.inspect %>
+  <% end -%>
+  <% if @port -%>
+  port = <%= @port.inspect %>
+  <% end -%>
+  <% if @host_name_template -%>
+  host_name_template = <%= @host_name_template.inspect %>
+  <% end -%>
+  <% if @service_name_template -%>
+  service_name_template = <%= @service_name_template.inspect %>
+  <% end -%>
+}

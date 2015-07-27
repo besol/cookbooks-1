@@ -1,0 +1,8 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    hudson (0.3.0)
+
+DEPENDENCIES
+  hudson (>= 0)
+

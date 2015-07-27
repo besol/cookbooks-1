@@ -1,0 +1,36 @@
+{
+  "name": "symfony",
+  "description": "Deploys and configures Symfony-based applications",
+  "long_description": "# symfony Cookbook\n\n## Requirements\n\n###Cookbooks\nThe following cookbooks are direct dependencies because they're used for common \"default\" functionality.\n\n- [nginx](https://github.com/opscode-cookbooks/nginx)\n- [php](https://github.com/opscode-cookbooks/php) \n- [php-fpm](https://github.com/yevgenko/cookbook-php-fpm)\n\nThe following cookbook is not a strict dependency because its use can be controlled by an attribute, so it may not be a common \"default.\"\n- [rvm](https://github.com/opscode-cookbooks/nginx) (for sass)\n\n###Platforms\nThe following platforms are supported:\n\n- Ubuntu 10.04, Ubuntu 12.04\n- CentOS 5.8, 6.3\n\nOther Debian and RHEL family distributions are assumed to work.\n\n# Usage\n\n# Attributes\n\n# Recipes",
+  "maintainer": "Dmitry Tsoy",
+  "maintainer_email": "hd.deman@gmail.com",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+    "nginx": "~> 2.0.4",
+    "php-fpm": "~> 0.5.0",
+    "php": "~> 1.2.6",
+    "mysql": "~> 4.0.4",
+    "database": "~> 1.5.2",
+    "rvm": "~> 0.9.1",
+    "git": "~> 2.7.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "2.0.2"
+}

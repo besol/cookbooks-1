@@ -1,0 +1,24 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apache2 (3.1.0)
+    apt (2.7.0)
+    icinga2 (2.5.7)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      pnp4nagios (>= 0.0.0)
+      ulimit (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    pnp4nagios (0.2.1)
+      apache2 (>= 0.0.0)
+      rrdtool (>= 0.0.0)
+    rrdtool (0.2.0)
+    ulimit (0.3.3)
+    yum (3.6.3)
+    yum-epel (0.6.2)
+      yum (~> 3.2)
+
+DEPENDENCIES
+  icinga2 (>= 0)
+

@@ -1,0 +1,109 @@
+/**
+ * This file is managed by Chef.
+ * Do NOT modify this file directly.
+*/
+
+/**
+ * Service Objects.
+*/
+
+<% @objects.sort.map do |object, options|%>
+<%= options['object_class'] -%> Service <%= object.inspect -%> {
+  <%- if options['import'] -%>
+  import <%= options['import'].inspect %>
+  <%- end -%>
+  <%- if options['display_name'] -%>
+  display_name = <%= options['display_name'].inspect %>
+  <%- end -%>
+  <%- if options['host_name'] -%>
+  host_name = <%= options['host_name'].inspect %>
+  <%- end -%>
+  <%- if options['groups'] && !options['groups'].empty? -%>
+  groups = <%= options['groups'].sort.uniq.inspect %>
+  <%- end -%>
+  <%- if options['check_command'] -%>
+  check_command = <%= options['check_command'].inspect %>
+  <%- end -%>
+  <%- if options['max_check_attempts'] -%>
+  max_check_attempts = <%= options['max_check_attempts'].inspect %>
+  <%- end -%>
+  <%- if options['check_period'] -%>
+  check_period = <%= options['check_period'].inspect %>
+  <%- end -%>
+  <%- if options['check_interval'] -%>
+  check_interval = <%= options['check_interval'] %>
+  <%- end -%>
+  <%- if options['retry_interval'] -%>
+  retry_interval = <%= options['retry_interval'] %>
+  <%- end -%>
+  <%- unless options['enable_notifications'].nil? -%>
+  enable_notifications = <%= options['enable_notifications'].inspect %>
+  <%- end -%>
+  <%- unless options['enable_active_checks'].nil? -%>
+  enable_active_checks = <%= options['enable_active_checks'].inspect %>
+  <%- end -%>
+  <%- unless options['enable_passive_checks'].nil? -%>
+  enable_passive_checks = <%= options['enable_passive_checks'].inspect %>
+  <%- end -%>
+  <%- unless options['enable_event_handler'].nil? -%>
+  enable_event_handler = <%= options['enable_event_handler'].inspect %>
+  <%- end -%>
+  <%- unless options['enable_flapping'].nil? -%>
+  enable_flapping = <%= options['enable_flapping'].inspect %>
+  <%- end -%>
+  <%- unless options['enable_perfdata'].nil? -%>
+  enable_perfdata = <%= options['enable_perfdata'].inspect %>
+  <%- end -%>
+  <%- if options['event_command'] -%>
+  event_command = <%= options['event_command'].inspect %>
+  <%- end -%>
+  <%- if options['flapping_threshold'] -%>
+  flapping_threshold = <%= options['flapping_threshold'].inspect %>
+  <%- end -%>
+  <%- unless options['volatile'].nil? -%>
+  volatile = <%= options['volatile'].inspect %>
+  <%- end -%>
+  <%- if options['zone'] -%>
+  zone = <%= options['zone'].inspect %>
+  <%- end -%>
+  <%- if options['command_endpoint'] -%>
+  command_endpoint = <%= options['command_endpoint'].inspect %>
+  <%- end -%>
+  <%- if options['notes'] -%>
+  notes = <%= options['notes'].inspect %>
+  <%- end -%>
+  <%- if options['notes_url'] -%>
+  notes_url = <%= options['notes_url'].inspect %>
+  <%- end -%>
+  <%- if options['action_url'] -%>
+  action_url = <%= options['action_url'].inspect %>
+  <%- end -%>
+  <%- if options['icon_image'] -%>
+  icon_image = <%= options['icon_image'].inspect %>
+  <%- end -%>
+  <%- if options['icon_image_alt'] -%>
+  icon_image_alt = <%= options['icon_image_alt'].inspect %>
+  <%- end -%>
+  <% if options['custom_vars'] -%>
+  <% Hash[options['custom_vars'].sort].each do |var, value| -%>
+  <% if var && value && value.is_a?(Hash) -%>
+  <% value.each do |a, v|-%>
+  <% if a && v && v.is_a?(Hash) && !v.empty?-%>
+  vars.<%= var -%><%= [a].inspect -%> = {
+  <% v.each do |a1, v1|%>
+  <% if a1 && v1 %>
+  <%= a1 -%> = <%= v1.inspect %>
+  <% end -%>
+  <% end -%>
+  }
+  <% else -%>
+  vars.<%= var -%><%= [a].inspect -%> = <%= v.inspect %>
+  <% end -%>
+  <% end -%>
+  <% elsif var && value -%>
+  vars.<%= var -%> = <%= value.inspect %>
+  <% end -%>
+  <% end -%>
+  <% end -%>
+}
+<%- end -%>

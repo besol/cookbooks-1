@@ -1,0 +1,23 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    build-essential (2.2.3)
+    chef_handler (1.2.0)
+    dmg (2.2.2)
+    etckeeper (1.0.4)
+      chef_handler (>= 0.0.0)
+      git (>= 0.0.0)
+    git (4.3.1)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      windows (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+    windows (1.37.0)
+      chef_handler (>= 0.0.0)
+    yum (3.6.3)
+    yum-epel (0.6.2)
+      yum (~> 3.2)
+
+DEPENDENCIES
+  etckeeper (>= 0)
+

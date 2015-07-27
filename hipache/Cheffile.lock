@@ -1,0 +1,30 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    7-zip (1.0.2)
+      windows (>= 1.2.2)
+    apt (2.7.0)
+    ark (0.9.0)
+      7-zip (>= 0.0.0)
+      windows (>= 0.0.0)
+    build-essential (2.2.3)
+    chef_handler (1.2.0)
+    hipache (0.2.0)
+      nodejs (>= 0.0.0)
+    homebrew (1.13.0)
+      build-essential (>= 2.1.2)
+    nodejs (2.4.0)
+      apt (>= 0.0.0)
+      ark (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+    windows (1.37.0)
+      chef_handler (>= 0.0.0)
+    yum (3.6.3)
+    yum-epel (0.6.2)
+      yum (~> 3.2)
+
+DEPENDENCIES
+  hipache (>= 0)
+

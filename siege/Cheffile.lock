@@ -1,0 +1,10 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    siege (0.1.1)
+      yum (>= 0.0.0)
+    yum (3.6.3)
+
+DEPENDENCIES
+  siege (>= 0)
+

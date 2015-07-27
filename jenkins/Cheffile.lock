@@ -1,0 +1,16 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (2.7.0)
+    jenkins (2.3.1)
+      apt (~> 2.0)
+      runit (~> 1.5)
+      yum (~> 3.0)
+    packagecloud (0.0.19)
+    runit (1.7.2)
+      packagecloud (>= 0.0.0)
+    yum (3.6.3)
+
+DEPENDENCIES
+  jenkins (>= 0)
+

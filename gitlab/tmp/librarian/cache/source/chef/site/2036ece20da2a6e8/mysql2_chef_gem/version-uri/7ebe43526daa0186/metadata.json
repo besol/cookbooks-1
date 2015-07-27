@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":2580,"version":"1.0.2","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/mysql2_chef_gem","file":"https://supermarket.getchef.com/api/v1/cookbooks/mysql2_chef_gem/versions/1.0.2/download","dependencies":{"mariadb":">= 0.0.0","mysql":"~> 6.0","build-essential":">= 0.0.0"}}

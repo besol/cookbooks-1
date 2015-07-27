@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":10074,"version":"1.0.4","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/etckeeper","file":"https://supermarket.getchef.com/api/v1/cookbooks/etckeeper/versions/1.0.4/download","dependencies":{"git":">= 0.0.0","chef_handler":">= 0.0.0"}}

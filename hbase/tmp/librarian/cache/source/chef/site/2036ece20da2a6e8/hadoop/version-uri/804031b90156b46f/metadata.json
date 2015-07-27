@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":36391,"version":"2.0.4","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/hadoop","file":"https://supermarket.getchef.com/api/v1/cookbooks/hadoop/versions/2.0.4/download","dependencies":{"ulimit":">= 0.0.0","sysctl":">= 0.0.0","selinux":">= 0.0.0","apt":">= 0.0.0","yum":">= 3.0"}}

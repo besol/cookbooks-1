@@ -1,0 +1,24 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (2.7.0)
+    build-essential (2.2.3)
+    couchdb (2.5.2)
+      erlang (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    erlang (1.5.8)
+      apt (>= 1.7.0)
+      build-essential (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+      yum-erlang_solutions (>= 0.0.0)
+    yum (3.6.3)
+    yum-epel (0.6.2)
+      yum (~> 3.2)
+    yum-erlang_solutions (0.2.0)
+      yum (~> 3.0)
+
+DEPENDENCIES
+  couchdb (>= 0)
+

@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":3597,"version":"0.1.2","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/sugarcrm","file":"https://supermarket.getchef.com/api/v1/cookbooks/sugarcrm/versions/0.1.2/download","dependencies":{"apache2":">= 0.0.0","git":">= 0.0.0","openssl":">= 0.0.0","php":">= 0.0.0","mysql":">= 0.0.0"}}

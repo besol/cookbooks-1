@@ -1,0 +1,1 @@
+{"license":"All rights reserved","tarball_file_size":8072,"version":"0.1.0","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/mediawiki","file":"https://supermarket.getchef.com/api/v1/cookbooks/mediawiki/versions/0.1.0/download","dependencies":{"php":">= 0.0.0","apache2":">= 0.0.0","database":">= 0.0.0","mysql":">= 0.0.0"}}

@@ -1,0 +1,1 @@
+{"license":"Apache 2.0","tarball_file_size":4569,"version":"1.5.8","average_rating":null,"cookbook":"https://supermarket.getchef.com/api/v1/cookbooks/erlang","file":"https://supermarket.getchef.com/api/v1/cookbooks/erlang/versions/1.5.8/download","dependencies":{"build-essential":">= 0.0.0","yum-erlang_solutions":">= 0.0.0","yum-epel":">= 0.0.0","yum":"~> 3.0","apt":">= 1.7.0"}}

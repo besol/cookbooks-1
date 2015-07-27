@@ -1,0 +1,16 @@
+/**
+ * This file is managed by Chef.
+ * Do NOT modify this file directly.
+*/
+
+/**
+ * ExternalCommandListener Object.
+*/
+
+library <%= @library.inspect %>
+
+object ExternalCommandListener <%= @object.inspect -%> {
+  <% if @command_path -%>
+  command_path = <%= @command_path.inspect %>
+  <% end -%>
+}
