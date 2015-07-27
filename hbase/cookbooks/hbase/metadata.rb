@@ -1,3 +1,4 @@
+name "hbase"
 maintainer       "Robert J. Berger Runa Inc."
 maintainer_email "ops@runa.com"
 license          "Apache 2.0"
